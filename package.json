@@ -1,0 +1,30 @@
+{
+  "name": "@liqd-rn/user",
+  "version": "0.0.1",
+  "description": "",
+  "author": "radixxko",
+  "license": "MIT",
+  "main": "dist/state.js",
+  "types": "dist/state.d.ts",
+  "files": [ "dist/**/*" ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "version": "npm i && tsc && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liqd-rn/user.git"
+  },
+  "dependencies": {
+    "@liqd-rn/client": "^0.0.2",
+    "@liqd-rn/state": "^1.5.7",
+    "@liqd-rn/storage": "^0.1.7",
+    "buffer": "^6.0.3",
+    "ee-ts": "^1.0.2",
+    "react-native-fast-pbkdf2": "^0.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

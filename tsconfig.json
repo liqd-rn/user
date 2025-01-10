@@ -1,0 +1,25 @@
+{
+  "include": ["src/**/*"],
+  "exclude":["node_modules"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "dist",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,  
+    "forceConsistentCasingInFileNames": true,     
+    "strict": true,                               
+    "skipLibCheck": true,                         
+    "jsx": "react-native",
+    "target": "esnext",
+    "module": "commonjs",
+    "declarationMap": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+  }
+}
